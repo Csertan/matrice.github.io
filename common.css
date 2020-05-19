@@ -20,3 +20,14 @@ button,
 html {
 	scroll-behavior: smooth;
 }
+
+/* Fonts */
+.studio-logo {
+	font-family: 'Libre Barcode 128 Text', cursive;
+}
+.headers {
+	font-family: 'Martel', serif;
+}
+.regular-text {
+	font-family: 'Titillium Web', sans-serif;
+}
