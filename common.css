@@ -22,12 +22,124 @@ html {
 }
 
 /* Fonts */
-.studio-logo {
+.font-barcode {
 	font-family: 'Libre Barcode 128 Text', cursive;
 }
-.headers {
-	font-family: 'Martel', serif;
+.font-title {
+	font-family: 'Jost', sans-serif;
 }
-.regular-text {
-	font-family: 'Titillium Web', sans-serif;
+.font-sans {
+	font-family: 'Quicksand', sans-serif;
 }
+
+/* Text styles */
+.text-heading {
+	font-size: 4rem;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+}
+.text-title {
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+.text-regular {
+	font-size: 1.5rem;
+	font-weight: normal;
+	text-align: start;
+	text-decoration: none;
+}
+
+/* Alignments */
+.centered {
+	position: relative;
+	top: 50%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.flex-centered-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Margins and paddings */
+.margin-regular {
+	margin: 1rem 1rem 1rem 1rem;
+}
+.margin-large {
+	margin: 2.5rem 2.5rem 2.5rem 2.5rem;
+}
+.margin-centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.padding-regular {
+	padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+.padding-large {
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+/* Sizes */
+.half-width {
+	width: 50%;
+	height: auto;
+}
+.full-size {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+/* Tabs */
+.tab-container {
+
+}
+.tabcontent-container {
+
+}
+.tablink {
+
+}
+.tabcontent {
+	animation: fadeEffect 1s;
+}
+
+#research-tab {
+	background: url('./img/background_research.png') no-repeat center;
+	background-size: cover;
+}
+#about-tab {
+	background: url('./img/background_about.png') no-repeat center;
+	background-size: cover;
+}
+#privacy-policy {
+	background: url('./img/background_privacy.png') no-repeat center;
+	background-size: cover;
+}
+
+/* Unique elements */
+.applogo {
+	width: auto;
+	max-height: 12rem;
+}
+.studiologo {
+	width: auto;
+	max-height: 8rem;
+}
+.heading {
+}
+.container-background {
+	background: url("./img/background.png") no-repeat center;
+	background-size: cover;
+}
+
+/* Animations */
+@keyframes fadeEffect {
+	from {opacity: 0;}
+	to {opacity: 1;}
+  }

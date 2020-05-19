@@ -9,10 +9,41 @@
 	    <meta charset="utf-8">
 	    <link rel="stylesheet" href="common.css">
         <link rel="icon" href="icon/designedIco.ico" type="image/gif">
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Martel:wght@300&family=Titillium+Web&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Jost&family=Libre+Barcode+128+Text&family=Quicksand&display=swap" rel="stylesheet"> 
     </head>
-    <body>
-        <h1 class="studio-logo">nosebite studios</h1>
-    </body>
+    <body onload="hideTabs()">
+        <div class="full-size container-background">
+            <div class="controls">
 
+            </div>
+            <div class="half-width margin-large margin-centered flex-centered-content heading">
+                <img class="padding-regular applogo" src="./img/ic_launcher-playstore.png" />
+                <span class="font-sans margin-regular padding-regular text-title">by</span>
+                <img class="margin-regular padding-regular studiologo" src="./img/nosebite_logo_gray.PNG" />
+            </div>
+
+            <div class="half-width margin-regular margin-centered flex-centered tab-container">
+                <a class="tablink" onclick="openTab(event, 'research-tab')" href="#research">Research</a>
+                <a class="tablink" onclick="openTab(event, 'about-tab')" href="#about">About</a>
+                <a class="tablink" onclick="openTab(event, 'privacy-policy')" href="#privacy">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="full-size tab-background">
+            <div class="tabcontent-container">
+                <div id="research-tab" class="full-size tabcontent">
+                    <h2 class="font-sans margin-regular text-title">Our Research</h2>
+                </div>
+                <div id="about-tab" class="full-size tabcontent">
+                    <h2 class="font-sans margin-regular text-title">About Us</h2>
+                </div>
+                <div id="privacy-policy" class="full-size tabcontent">
+                    <h2 class="font-sans margin-regular text-title">Privacy Policy</h2>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </body>
+    <script src="scripts.js"></script>
 </html>
