@@ -1,0 +1,22 @@
+/* nosebite Studios 2020 */
+/* See license for terms and conditions of use */
+
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	font-size: 16px;
+}
+a[href],
+input[type='submit'],
+input[type='image'],
+label[for],
+select,
+button,
+.pointer {
+    cursor: pointer;
+}
+html {
+	scroll-behavior: smooth;
+}
