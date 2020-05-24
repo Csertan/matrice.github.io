@@ -1,0 +1,21 @@
+{
+    "navigation" : {
+        "tablinks" : {
+            "research-tablink" : "Kutatás",
+            "about-tablink" : "Játék",
+            "privacy-tablink" : "Adatvédelem"
+        }
+    },
+
+    "content" : {
+        "tabs" : {
+            "research-tabtitle" : "A kutatásról",
+            "about-tabtitle" : "A játékról",
+            "privacy-tabtitle": "Adatvédelmi Nyilatkozat"
+        }
+    },
+
+    "footer" : {
+        "legal-notice" : "&copy;2020 Minden jog fenntartva."
+    }
+}

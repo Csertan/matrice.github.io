@@ -45,11 +45,20 @@ html {
 	text-align: center;
 	text-decoration: none;
 }
-.text-regular {
+.text-medium {
 	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+.text-regular {
+	font-size: 1.3rem;
 	font-weight: normal;
 	text-align: start;
 	text-decoration: none;
+}
+.text-right {
+	text-align: right;
 }
 
 /* Alignments */
@@ -66,6 +75,9 @@ html {
 }
 
 /* Margins and paddings */
+.margin-small {
+	margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
 .margin-regular {
 	margin: 1rem 1rem 1rem 1rem;
 }
@@ -83,10 +95,17 @@ html {
 .padding-large {
 	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
+.padding-giant {
+	padding: 1rem 1rem 1rem 1rem;
+}
 
 /* Sizes */
 .half-width {
 	width: 50%;
+	height: auto;
+}
+.two-thirds-width {
+	width: 66%;
 	height: auto;
 }
 .full-size {
@@ -95,15 +114,38 @@ html {
 	overflow: hidden;
 }
 
+/* Links */
+.custom-link {
+	color: #222222;
+	text-decoration: none;
+}
+.custom-link:hover {
+	color: #464646;
+}
+.custom-link:active {
+	color: #464646;
+}
+
 /* Tabs */
 .tab-container {
-
+	background-color: rgba(255, 255, 255, 0.315);
+	border-radius: 10px;
 }
 .tabcontent-container {
 
 }
 .tablink {
-
+	color: #222222;
+	border: transparent solid 5px;
+	border-radius: 5px;
+	transition: color .5s;
+}
+.tablink:hover {
+	color: #464646;
+}
+.active {
+	color: #464646;
+	border-bottom: #9797974b solid 5px;
 }
 .tabcontent {
 	animation: fadeEffect 1s;
@@ -122,6 +164,22 @@ html {
 	background-size: cover;
 }
 
+/* Grids */
+.two-column-grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	justify-content: center;
+	align-content: center;
+}
+.three-column-grid {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: auto;
+	justify-content: center;
+	align-content: center;
+}
+
 /* Unique elements */
 .applogo {
 	width: auto;
@@ -131,12 +189,12 @@ html {
 	width: auto;
 	max-height: 8rem;
 }
-.heading {
-}
+.heading {}
 .container-background {
 	background: url("./img/background.png") no-repeat center;
 	background-size: cover;
 }
+.about-content {}
 
 /* Animations */
 @keyframes fadeEffect {

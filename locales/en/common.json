@@ -1,0 +1,21 @@
+{
+    "navigation" : {
+        "tablinks" : {
+            "research-tablink" : "Research",
+            "about-tablink" : "About",
+            "privacy-tablink" : "Privacy Policy"
+        }
+    },
+
+    "content" : {
+        "tabs" : {
+            "research-tabtitle" : "Our Research",
+            "about-tabtitle" : "About the Game",
+            "privacy-tabtitle": "Privacy Policy"
+        }
+    },
+
+    "footer" : {
+        "legal-notice" : "&copy;2020 All rights reserved."
+    }
+}

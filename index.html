@@ -22,28 +22,57 @@
                 <img class="margin-regular padding-regular studiologo" src="./img/nosebite_logo_gray.PNG" />
             </div>
 
-            <div class="half-width margin-regular margin-centered flex-centered tab-container">
-                <a class="tablink" onclick="openTab(event, 'research-tab')" href="#research">Research</a>
-                <a class="tablink" onclick="openTab(event, 'about-tab')" href="#about">About</a>
-                <a class="tablink" onclick="openTab(event, 'privacy-policy')" href="#privacy">Privacy Policy</a>
+            <div class="two-thirds-width margin-regular margin-centered three-column-grid tab-container">
+                <a id="research-tablink" class="font-title text-title margin-small padding-regular tablink" 
+                onclick="openTab(event, 'research-tab')" href="#research-tab">Research</a>
+                <a id="about-tablink" class="font-title text-title margin-small padding-regular tablink" 
+                onclick="openTab(event, 'about-tab')" href="#about-tab">About</a>
+                <a id="privacy-tablink" class="font-title text-title margin-small padding-regular tablink" 
+                onclick="openTab(event, 'privacy-policy')" href="#privacy-policy">Privacy Policy</a>
             </div>
         </div>
         <div class="full-size tab-background">
             <div class="tabcontent-container">
                 <div id="research-tab" class="full-size tabcontent">
-                    <h2 class="font-sans margin-regular text-title">Our Research</h2>
+                    <h2 id="research-tabtitle" class="font-sans margin-large text-title">Our Research</h2>
                 </div>
                 <div id="about-tab" class="full-size tabcontent">
-                    <h2 class="font-sans margin-regular text-title">About Us</h2>
+                    <h2 id="about-tabtitle" class="font-sans margin-large text-title">About the Game</h2>
+                    <div class="two-column-grid padding-regular about-content">
+                        <div>
+                            <a href="#">Get it on Google Play!</a>
+                        </div>
+                        <div>
+                            <p>...Short summary about the game...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Contact us</p>
+                    </div>
                 </div>
                 <div id="privacy-policy" class="full-size tabcontent">
-                    <h2 class="font-sans margin-regular text-title">Privacy Policy</h2>
+                    <h2 id="privacy-tabtitle" class="font-sans margin-large text-title">Privacy Policy</h2>
                 </div>
             </div>
         </div>
-        <div class="footer">
-
+        <div class="two-column-grid padding-giant footer">
+            <div>
+                <span class="font-barcode margin-regular text-title">nosebite studios</span>
+                <span id="legal-notice" class="font-title margin-regular text-medium">
+                    &copy;2020 All rights reserved.
+                </span>
+            </div>
+            <div class="text-right">
+                <a href="javascript:i18next.changeLanguage('hu')" 
+                class="font-title margin-small text-regular custom-link">HU</a>
+                <a href="javascript:i18next.changeLanguage('en')" 
+                class="font-title margin-small text-regular custom-link">EN</a>
+            </div>
         </div>
     </body>
     <script src="scripts.js"></script>
+    <script src="https://unpkg.com/i18next/i18next.js"></script>
+    <script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+    <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+    <script src="interntionalisation.js"></script>
 </html>
