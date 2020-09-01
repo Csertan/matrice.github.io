@@ -30,9 +30,28 @@ i18next
           ['about-tabtitle', 'content.tabs.about-tabtitle'],
           ['privacy-tabtitle', 'content.tabs.privacy-tabtitle']
       ]);
+      updatePrivacyTab();
       updateElements([
           ['legal-notice', 'footer.legal-notice']
       ]);
+  }
+
+  function updatePrivacyTab() {
+    updateElements([
+      ['title-web', 'content.privacy.title-web'],
+      ['summary-web', 'content.privacy.summary-web'],
+      ['paragraph-web', 'content.privacy.paragraph-web'],
+      ['title-game', 'content.privacy.title-game'],
+      ['summary-game', 'content.privacy.summary-game'],
+      ['title1-game', 'content.privacy.title1-game'],
+      ['title2-game', 'content.privacy.title2-game'],
+      ['p1-game', 'content.privacy.p1-game'],
+      ['p2-game', 'content.privacy.p2-game'],
+      ['p3-game', 'content.privacy.p3-game'],
+      ['p4-game', 'content.privacy.p4-game'],
+      ['p5-game', 'content.privacy.p5-game'],
+      ['p6-game', 'content.privacy.p6-game']
+    ])
   }
 
   function updateElements(updateList) {

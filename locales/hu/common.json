@@ -12,6 +12,21 @@
             "research-tabtitle" : "A kutatásról",
             "about-tabtitle" : "A játékról",
             "privacy-tabtitle": "Adatvédelmi Nyilatkozat"
+        },
+        "privacy": {
+            "title-web": "Weboldal",
+            "summary-web": "Az alábbi szövegben összefoglaltuk a weboldalt érintő adatvédelmi tudnivalókat.",
+            "paragraph-web": "Nem követnek! Ez a weboldal egyáltalán nem használ sütiket, valamint nem gyűjt semmilyen fajta személyes adatot.",
+            "title-game": "Matrice",
+            "summary-game": "Alább olvashatsz a Matrice android applikáció által gyűjtött adatokról és a Nosebite Studios adatkezelési gyakorlatáról.",
+            "title1-game": "Milyen adatokat nem gyűjtünk?",
+            "p1-game": "Miközben a Matrice játékkal játszol semmilyen olyan adatodat nem tároljuk el, dolgozzuk fel vagy ismerjük meg, amiből a személyazonosságodra vonatkozó bármilyen következtetést levonhatnánk. Egyszóval nem gyűjtünk az appon keresztül személyes adatokat.",
+            "p2-game": "Itt meg is állhatnánk, de ha érdekel, szeretnénk jobban elmagyarázni, hogy mégis miféle kutatási adatokat gyűjtünk hát, amikről a Kutatás fülben értesülhettél.",
+            "title2-game": "Milyen adatokat gyűjtünk?",
+            "p3-game": "Hogy a kutatásban lefektetett célt elérjük és használható adatokat kapjunk az elemzéshez, minket nem a játékos személye érdekel, hanem a játék módja. Ezért minden játék után a játék adatai - mint például a kiindulási és a cél minta, a játékos által megtett lépések, a célig tartó út hossza (lépésszám), a játék időtartama és kezdő ideje - eltárolásra kerülnek a szerverünkre.",
+            "p4-game": "Fontos továbbá, hogy az egyes játékokat össze tudjuk kötni egymással az őket játszó játékos alapján, ezért minden felhasználó számára generálódik egy anonim és nem visszakövehtető azonosító kulcs, amit szintén hozzárendelünk az általa lejátszott menetekhez, ezáltal lehetővé válik számunkra a fejlődés követése.",
+            "p5-game": "Esetleges statisztikai érdekességekre vonatkozóan a felhasználók önkéntesen megadhatják nemüket és korukat, ezzel is bővítve a kutatócsoport lehetőségeit.",
+            "p6-game": "A Google Play szolgáltatások emellett felhasználhatja a játékos Google profiljának azon adatait, amelyekre a játékos engedélyt ad. Megjelenítheti a felhasználó nevét a ranglistákon és a küldetések teljesítésénél. Azonban ezeket az adatokat a Nosebite Studios nem ismerheti meg, felhasználásukról és kezelésük módjáról a Google Play Games Services megfelelő irányelvei rendelkeznek."
         }
     },
 
