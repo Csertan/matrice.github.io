@@ -21,6 +21,10 @@ i18next
 
   function updateContent() {
       updateElements([
+        ['by-text', 'header.by-text'],
+        ['by-text-after', 'header.by-text-after']
+      ])
+      updateElements([
           ['research-tablink', 'navigation.tablinks.research-tablink'],
           ['about-tablink', 'navigation.tablinks.about-tablink'],
           ['privacy-tablink', 'navigation.tablinks.privacy-tablink']
@@ -32,7 +36,8 @@ i18next
       ]);
       updatePrivacyTab();
       updateElements([
-          ['legal-notice', 'footer.legal-notice']
+          ['legal-notice', 'footer.legal-notice'],
+          ['legal-google', 'footer.legal-google']
       ]);
   }
 

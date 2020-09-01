@@ -57,6 +57,12 @@ html {
 	text-align: start;
 	text-decoration: none;
 }
+.text-small {
+	font-size: 1rem;
+	font-weight: normal;
+	text-align: start;
+	text-decoration: none;
+}
 .text-right {
 	text-align: right;
 }
@@ -73,6 +79,10 @@ html {
 	justify-content: center;
 	align-items: center;
 }
+.vertical-aligned-text {
+	vertical-align: bottom;
+	line-height: 2rem;
+}
 
 /* Margins and paddings */
 .margin-small {
@@ -87,6 +97,10 @@ html {
 .margin-centered {
 	margin-left: auto;
 	margin-right: auto;
+}
+.margin-side-regular {
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .padding-regular {
@@ -195,6 +209,12 @@ html {
 	background-size: cover;
 }
 .about-content {}
+
+#footer-grid {
+	height: 4rem;
+	grid-template-rows: 3rem;
+	grid-template-columns: 45% 45% 10%;
+}
 
 /* Animations */
 @keyframes fadeEffect {

@@ -1,4 +1,8 @@
 {
+    "header": {
+        "by-text": "a",
+        "by-text-after": "-tól"
+    },
     "navigation" : {
         "tablinks" : {
             "research-tablink" : "Kutatás",
@@ -31,6 +35,7 @@
     },
 
     "footer" : {
-        "legal-notice" : "&copy;2020 Minden jog fenntartva."
+        "legal-notice" : "&copy;2020 Minden jog fenntartva.",
+        "legal-google": "A Google Play és a Google Play-logó a Google LLC védjegyei."
     }
 }

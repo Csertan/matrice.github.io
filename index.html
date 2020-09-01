@@ -17,9 +17,14 @@
 
             </div>
             <div class="half-width margin-large margin-centered flex-centered-content heading">
-                <img class="padding-regular applogo" src="./img/ic_launcher-playstore.png" />
-                <span class="font-sans margin-regular padding-regular text-title">by</span>
-                <img class="margin-regular padding-regular studiologo" src="./img/nosebite_logo_gray.PNG" />
+                <a href="#">
+                    <img class="padding-regular applogo" src="./img/ic_launcher-playstore.png" alt="Matrice logo"/>
+                </a>
+                <span id="by-text" class="font-sans margin-regular padding-regular text-title">by</span>
+                <a href="mailto:nosebitestudios@gmail.com" target="_blank">
+                    <img class="margin-regular padding-regular studiologo" src="./img/nosebite_logo_gray.PNG" alt="Nosebite Studios logo"/>
+                </a>
+                <span id="by-text-after" class="font-sans margin-regular padding-regular text-title"></span>
             </div>
 
             <div class="two-thirds-width margin-regular margin-centered three-column-grid tab-container">
@@ -39,53 +44,59 @@
                 <div id="about-tab" class="full-size tabcontent">
                     <h2 id="about-tabtitle" class="font-sans margin-large text-title">About the Game</h2>
                     <div class="two-column-grid padding-regular about-content">
-                        <div>
-                            <a href="#">Get it on Google Play!</a>
+                        <div class="padding-regular">
+                            <a href="#" class="flex-centered-content" target="_blank">
+                                <img id="google-play-badge" class="half-width" src="img/google-play-badge.png" alt="Get it on Google Play!">
+                            </a>
                         </div>
-                        <div>
+                        <div class="padding-regular">
                             <p>...Short summary about the game...</p>
                         </div>
-                    </div>
-                    <div>
-                        <p>Contact us</p>
                     </div>
                 </div>
                 <div id="privacy-policy" class="full-size tabcontent">
                     <h2 id="privacy-tabtitle" class="font-sans margin-large text-title">Privacy Policy</h2>
-                    <div class="padding-regular privacy-content">
+                    <div class="margin-large padding-regular privacy-content">
                         <div>
-                            <h2 id="title-web"></h2>
-                            <p id="summary-web"></p>
-                            <p id="paragraph-web"></p>
+                            <h2 id="title-web" class="font-title text-medium margin-regular"></h2>
+                            <p id="summary-web" class="font-sans text-small margin-small"></p>
+                            <p id="paragraph-web" class="font-sans text-regular margin-small"></p>
                         </div>
                         <div>
-                            <h2 id="title-game"></h2>
-                            <p id="summary-game"></p>
-                            <h3 id="title1-game"></h3>
-                            <p id="p1-game"></p>
-                            <p id="p2-game"></p>
-                            <h3 id="title2-game"></h3>
-                            <p id="p3-game"></p>
-                            <p id="p4-game"></p>
-                            <p id="p5-game"></p>
-                            <p id="p6-game"></p>
+                            <h2 id="title-game" class="font-title text-medium margin-regular"></h2>
+                            <p id="summary-game" class="font-sans text-small margin-small"></p>
+                            <h3 id="title1-game" class="font-title text-regular margin-regular"></h3>
+                            <p id="p1-game" class="font-sans text-regular margin-small"></p>
+                            <p id="p2-game" class="font-sans text-regular margin-small"></p>
+                            <h3 id="title2-game" class="font-title text-regular margin-regular"></h3>
+                            <p id="p3-game" class="font-sans text-regular margin-small"></p>
+                            <p id="p4-game" class="font-sans text-regular margin-small"></p>
+                            <p id="p5-game" class="font-sans text-regular margin-small"></p>
+                            <p id="p6-game" class="font-sans text-regular margin-small"></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="two-column-grid padding-giant footer">
+        <div id="footer-grid" class="three-column-grid padding-giant footer">
             <div>
-                <span class="font-barcode margin-regular text-title">nosebite studios</span>
-                <span id="legal-notice" class="font-title margin-regular text-medium">
+                <span class="font-barcode text-title vertical-aligned-text margin-side-regular">
+                    nosebite studios
+                </span>
+                <span id="legal-notice" class="font-title text-medium vertical-aligned-text margin-side-regular">
                     &copy;2020 All rights reserved.
+                </span>
+            </div>
+            <div>
+                <span id="legal-google" class="font-sans text-small vertical-aligned-text margin-side-regular">
+                    Google Play and the Google Play logo are trademarks of Google LLC.
                 </span>
             </div>
             <div class="text-right">
                 <a href="javascript:i18next.changeLanguage('hu')" 
-                class="font-title margin-small text-regular custom-link">HU</a>
+                class="font-title margin-small text-regular custom-link vertical-aligned-text">HU</a>
                 <a href="javascript:i18next.changeLanguage('en')" 
-                class="font-title margin-small text-regular custom-link">EN</a>
+                class="font-title margin-small text-regular custom-link vertical-aligned-text">EN</a>
             </div>
         </div>
     </body>
