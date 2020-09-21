@@ -102,6 +102,10 @@ html {
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
+.margin-side-large {
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
 
 .padding-regular {
 	padding: 0.25rem 0.25rem 0.25rem 0.25rem;
@@ -142,8 +146,8 @@ html {
 
 /* Tabs */
 .tab-container {
-	background-color: rgba(255, 255, 255, 0.315);
-	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 40px;
 }
 .tabcontent-container {
 
@@ -151,7 +155,7 @@ html {
 .tablink {
 	color: #222222;
 	border: transparent solid 5px;
-	border-radius: 5px;
+	border-radius: 35px;
 	transition: color .5s;
 }
 .tablink:hover {
@@ -159,7 +163,7 @@ html {
 }
 .active {
 	color: #464646;
-	border-bottom: #9797974b solid 5px;
+	border: #9797974b solid 5px;
 }
 .tabcontent {
 	animation: fadeEffect 1s;
@@ -214,6 +218,18 @@ html {
 	height: 4rem;
 	grid-template-rows: 3rem;
 	grid-template-columns: 45% 45% 10%;
+}
+#github {
+	height: 2rem;
+	width: 2rem;
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	display: flex;
+}
+.githublogo {
+	width: auto;
+	max-height: 2rem;
 }
 
 /* Animations */

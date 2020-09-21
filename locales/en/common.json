@@ -16,6 +16,27 @@
             "research-tabtitle" : "Our Research",
             "about-tabtitle" : "About the Game",
             "privacy-tabtitle": "Privacy Policy"
+        },
+        "privacy": {
+            "title-web": "Webpage",
+            "summary-web": "",
+            "paragraph-web": "",
+            "title-game": "Matrice",
+            "summary-game": "",
+            "title1-game": "",
+            "p1-game": "",
+            "p2-game": "",
+            "title2-game": "",
+            "p3-game": "",
+            "p4-game": "",
+            "p5-game": "",
+            "p6-game": ""
+        },
+        "research": {
+            "research-summary": "This game is part of a research project that is hosted by the High Speed Network Laboratory at the Budapest University of Technology and Economics. As part of our research on how humans can navigate and find its paths in real-life complex networks we are gathering anonymous usage data from this game to analyze user behaviour. Are you wondering what the connection is between navigation and playing with the app? It appears that finding the best solution for the puzzle is analogous to finding a shortest path in a complex graph, namely a network."
+        },
+        "about": {
+            "about-summary": ""
         }
     },
 

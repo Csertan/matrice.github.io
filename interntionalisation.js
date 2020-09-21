@@ -36,6 +36,10 @@ i18next
       ]);
       updatePrivacyTab();
       updateElements([
+        ['research-summary', 'content.research.research-summary'],
+        ['about-summary', 'content.about.about-summary']
+      ]);
+      updateElements([
           ['legal-notice', 'footer.legal-notice'],
           ['legal-google', 'footer.legal-google']
       ]);

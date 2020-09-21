@@ -12,16 +12,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Jost&family=Libre+Barcode+128+Text&family=Quicksand&display=swap" rel="stylesheet"> 
     </head>
     <body onload="hideTabs()">
+        <div id="github">
+            <a href="https://github.com/csertant/matrice" title="Contribute on GitHub!" target="_blank">
+                <img class="githublogo" src="img/GitHub-Mark-120px-plus.png" alt="Github Repository" />
+            </a>
+        </div>
         <div class="full-size container-background">
             <div class="controls">
 
             </div>
             <div class="half-width margin-large margin-centered flex-centered-content heading">
-                <a href="#">
+                <a href="#" title="Home">
                     <img class="padding-regular applogo" src="./img/ic_launcher-playstore.png" alt="Matrice logo"/>
                 </a>
                 <span id="by-text" class="font-sans margin-regular padding-regular text-title">by</span>
-                <a href="mailto:nosebitestudios@gmail.com" target="_blank">
+                <a title="Get in touch with us!" href="mailto:nosebitestudios@gmail.com" target="_blank">
                     <img class="margin-regular padding-regular studiologo" src="./img/nosebite_logo_gray.PNG" alt="Nosebite Studios logo"/>
                 </a>
                 <span id="by-text-after" class="font-sans margin-regular padding-regular text-title"></span>
@@ -40,17 +45,20 @@
             <div class="tabcontent-container">
                 <div id="research-tab" class="full-size tabcontent">
                     <h2 id="research-tabtitle" class="font-sans margin-large text-title">Our Research</h2>
+                    <div class="padding-regular margin-large">
+                        <p id="research-summary" class="font-sans text-regular margin-small"></p>
+                    </div>
                 </div>
                 <div id="about-tab" class="full-size tabcontent">
                     <h2 id="about-tabtitle" class="font-sans margin-large text-title">About the Game</h2>
                     <div class="two-column-grid padding-regular about-content">
                         <div class="padding-regular">
-                            <a href="#" class="flex-centered-content" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.nosebite.matrice" class="flex-centered-content" target="_blank">
                                 <img id="google-play-badge" class="half-width" src="img/google-play-badge.png" alt="Get it on Google Play!">
                             </a>
                         </div>
-                        <div class="padding-regular">
-                            <p>...Short summary about the game...</p>
+                        <div class="padding-regular margin-side-large">
+                            <p id="about-summary" class="font-sans text-regular margin-side-regular"></p>
                         </div>
                     </div>
                 </div>

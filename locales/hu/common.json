@@ -31,6 +31,12 @@
             "p4-game": "Fontos továbbá, hogy az egyes játékokat össze tudjuk kötni egymással az őket játszó játékos alapján, ezért minden felhasználó számára generálódik egy anonim és nem visszakövehtető azonosító kulcs, amit szintén hozzárendelünk az általa lejátszott menetekhez, ezáltal lehetővé válik számunkra a fejlődés követése.",
             "p5-game": "Esetleges statisztikai érdekességekre vonatkozóan a felhasználók önkéntesen megadhatják nemüket és korukat, ezzel is bővítve a kutatócsoport lehetőségeit.",
             "p6-game": "A Google Play szolgáltatások emellett felhasználhatja a játékos Google profiljának azon adatait, amelyekre a játékos engedélyt ad. Megjelenítheti a felhasználó nevét a ranglistákon és a küldetések teljesítésénél. Azonban ezeket az adatokat a Nosebite Studios nem ismerheti meg, felhasználásukról és kezelésük módjáról a Google Play Games Services megfelelő irányelvei rendelkeznek."
+        },
+        "research": {
+            "research-summary": "Ez a játék egy kutatási projekt része, amelyben az emberi elme komplex hálózatokban való tájékozódását vizsgáljuk. A projekt gazdája a Budapesti Műszaki és Gazdaságtudományi Egyetem Nagysebességű Hálózatok Laboratóriumának hálózattudományi kutatócsoportja. Mikor ezzel a játékkal játszol és benne rejtvényeket oldasz meg, valójában egy analóg hálózatban keresel legrövidebb útvonalakat. Emberi stratégiák és általános kognitív vonások vizsgálatához begyűjtjük ezen az appon keresztül az anonimizált játékadatokat, s ezeket felhasználva és elemezve vonunk majd le következtetéseket az általános és az egyéni emberi viselkedéssel kapcsolatban."
+        },
+        "about": {
+            "about-summary": "Szeretnél jól szórakozni, megtornáztatni rejtvényfejtő képességeidet és emellett még egy kutatásban is részt venni, ahol az emberiség fejlődéséért kamatoztathatod képességeidet? Akkor ezt a játékot neked találták ki!"
         }
     },
 
