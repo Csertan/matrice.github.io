@@ -19,24 +19,24 @@
         },
         "privacy": {
             "title-web": "Webpage",
-            "summary-web": "",
-            "paragraph-web": "",
+            "summary-web": "In the text below, we have summarized the data protection information concerning the website.",
+            "paragraph-web": "You are not followed! This website does not use cookies at all and does not collect any kind of personal data.",
             "title-game": "Matrice",
-            "summary-game": "",
-            "title1-game": "",
-            "p1-game": "",
-            "p2-game": "",
-            "title2-game": "",
-            "p3-game": "",
-            "p4-game": "",
-            "p5-game": "",
-            "p6-game": ""
+            "summary-game": "Below you can read about the data collected by the Matrice android application and the data management practices of Nosebite Studios.",
+            "title1-game": "What data do we not collect?",
+            "p1-game": "While you are playing the Matrice game, we do not store, process or learn any of your data from which we could draw any conclusions about your identity. In short, we do not collect personal data through the app.",
+            "p2-game": "We could stop here, but if you are interested, we would like to explain better what kind of research data we collect, which you could find out about in the Research tab.",
+            "title2-game": "What data do we collect?",
+            "p3-game": "In order to achieve the goal set in the research and obtain usable data for analysis, we are not interested in the player's personality, but in his playing style. Therefore, after each game, the game data - such as the starting and target pattern, the steps taken by the player, the length of the path to the goal (number of steps), the duration and start time of the game - are stored on our server.",
+            "p4-game": "It is also important that we can connect the individual games to each other based on the player who plays them, so an anonymous and non-traceable identification key is generated for each user, which we also assign to the rounds played by him, thus enabling us to follow the progress.",
+            "p5-game": "Users can voluntarily provide their gender and age for possible statistical points of interest, thereby expanding the possibilities of the research group.",
+            "p6-game": "Google Play services can also use the data of the player's Google profile for which the player gives permission. Google Play Games can display the user's name on leaderboards and when completing missions. However, Nosebite Studios cannot see this data, its use and handling are governed by the relevant guidelines of Google Play Games Services."
         },
         "research": {
             "research-summary": "This game is part of a research project that is hosted by the High Speed Network Laboratory at the Budapest University of Technology and Economics. As part of our research on how humans can navigate and find its paths in real-life complex networks we are gathering anonymous usage data from this game to analyze user behaviour. Are you wondering what the connection is between navigation and playing with the app? It appears that finding the best solution for the puzzle is analogous to finding a shortest path in a complex graph, namely a network."
         },
         "about": {
-            "about-summary": ""
+            "about-summary": "Would you like to have fun, exercise your puzzle solving skills and also take part in a research where you can use your skills for the development of humanity? Then this game was made for you!"
         }
     },
 
